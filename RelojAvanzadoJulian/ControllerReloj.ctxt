@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ControllerReloj
+comment0.text=\r\n\ Un\ ejemplo\ que\ modela\ un\ Televisor\ simple\ usando\ POO\r\n\ \r\n\ @author\ (Julian\ Riveros-juliancamilorifo@ufps.edu.co)\r\n\ \r\n
+comment1.params=
+comment1.target=void\ inicializar()
+comment2.params=
+comment2.target=void\ actualizarGUI()
+comment3.params=event
+comment3.target=void\ adelantarHorario(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ adelantarMinutero(javafx.event.ActionEvent)
+comment5.params=event
+comment5.target=void\ adelantarSecundero(javafx.event.ActionEvent)
+comment6.params=event
+comment6.target=void\ retrocederHorario(javafx.event.ActionEvent)
+comment7.params=event
+comment7.target=void\ retrocederMinutero(javafx.event.ActionEvent)
+comment8.params=event
+comment8.target=void\ retrocederSecundero(javafx.event.ActionEvent)
+comment9.params=
+comment9.target=void\ initialize()
+numComments=10
