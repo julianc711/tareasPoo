@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=ControllerRectangulo
+comment1.params=event
+comment1.target=void\ mostrarAlertInfo(javafx.event.ActionEvent)
+comment2.params=event
+comment2.target=void\ mostrarAlertInfoAyuda(javafx.event.ActionEvent)
+comment3.params=event
+comment3.target=void\ ejecutarActualizarCoordenadas(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ ejecutarAyuda(javafx.event.ActionEvent)
+comment5.params=event
+comment5.target=void\ ejecutarDeterminarPosicion(javafx.event.ActionEvent)
+comment6.params=
+comment6.target=void\ actualizarGUI()
+comment7.params=
+comment7.target=void\ initialize()
+numComments=8
