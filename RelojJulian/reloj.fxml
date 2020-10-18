@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="297.0" prefWidth="553.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerReloj">
+   <top>
+      <Label fx:id="lblReloj" alignment="CENTER" maxWidth="1.7976931348623157E308" text="Reloj" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </top>
+   <right>
+      <ImageView fx:id="imgReloj" fitHeight="221.0" fitWidth="377.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@reloj.jpg" />
+         </image>
+         <BorderPane.margin>
+            <Insets left="5.0" right="5.0" />
+         </BorderPane.margin>
+      </ImageView>
+   </right>
+   <bottom>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="cmdHorario" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#moverHorario" text="Mover Horario">
+               <GridPane.margin>
+                  <Insets left="2.0" right="2.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="cmdMinutero" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#moverMinutero" text="Mover Minutero" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets left="2.0" right="2.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="cmdSecundero" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#moverSegundero" text="Mover Secundero" GridPane.columnIndex="2">
+               <GridPane.margin>
+                  <Insets left="2.0" right="2.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
+   </bottom>
+   <center>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="lblHoras" alignment="CENTER" maxWidth="1.7976931348623157E308" text="Horas" />
+            <Label fx:id="lblMinutos" alignment="CENTER" maxWidth="1.7976931348623157E308" text="Minutos" GridPane.rowIndex="1" />
+            <Label fx:id="lblSegundos" alignment="CENTER" maxWidth="1.7976931348623157E308" text="Segundos" GridPane.rowIndex="2" />
+            <TextField fx:id="txtHoras" alignment="CENTER" promptText="0" GridPane.columnIndex="1" />
+            <TextField fx:id="txtMinutos" alignment="CENTER" promptText="0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="txtSegundos" alignment="CENTER" promptText="0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>
