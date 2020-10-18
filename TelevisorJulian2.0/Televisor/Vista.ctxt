@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Vista
+comment0.text=\r\n\ Un\ ejemplo\ que\ modela\ un\ Televisor\ simple\ usando\ POO\r\n\ \r\n\ @author\ (Julian\ Riveros-juliancamilorifo@ufps.edu.co)\r\n\ \r\n
+comment1.params=stage
+comment1.target=void\ start(javafx.stage.Stage)
+numComments=2
