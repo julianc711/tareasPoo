@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F7E3FA;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerCirculo">
+   <children>
+      <VBox layoutX="-2.0" layoutY="-3.0" prefHeight="403.0" prefWidth="122.0" style="-fx-background-color: #990BAF;">
+         <children>
+            <GridPane prefHeight="119.0" prefWidth="121.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="326.5" minHeight="10.0" prefHeight="43.5" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="371.0" minHeight="0.0" prefHeight="12.5" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="371.0" minHeight="3.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="371.0" minHeight="0.0" prefHeight="11.5" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="371.0" minHeight="10.0" prefHeight="48.5" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="cmdActualizar" mnemonicParsing="false" onAction="#actualizar" prefHeight="39.0" prefWidth="121.0" text="ACTUALIZAR " textOverrun="CLIP">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="10.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="cmdDeterminar" mnemonicParsing="false" onAction="#determinarUbicacion" prefHeight="39.0" prefWidth="121.0" text="UBICACIÓN" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="11.0" />
+                     </font>
+                  </Button>
+               </children>
+            </GridPane>
+         </children></VBox>
+      <Text fx:id="lblTitulo" layoutX="150.0" layoutY="30.0" strokeLineCap="BUTT" strokeType="INSIDE" strokeWidth="0.0" text="LOCALIZADOR DIGITAL - CÍRCULO" textAlignment="CENTER" textOrigin="CENTER">
+         <font>
+            <Font name="Yu Gothic Light" size="27.0" />
+         </font>
+      </Text>
+      <Label fx:id="lblCentroX" alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="130.0" layoutY="73.0" text="CENTRO X">
+         <font>
+            <Font name="Yu Gothic Regular" size="12.0" />
+         </font></Label>
+      <TextField fx:id="txtCentroX" layoutX="243.0" layoutY="73.0" onAction="#ponerCentroX" prefHeight="25.0" prefWidth="278.0" promptText="0.0" />
+      <Label fx:id="lblCentroY" layoutX="131.0" layoutY="139.0" text="CENTRO Y">
+         <font>
+            <Font name="Yu Gothic Regular" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCentroY" layoutX="245.0" layoutY="141.0" onAction="#ponerCentroY" prefHeight="8.0" prefWidth="279.0" promptText="0.0" />
+      <Label fx:id="lblRadio" layoutX="131.0" layoutY="210.0" text="RADIO">
+         <font>
+            <Font name="Yu Gothic Regular" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtRadio" layoutX="247.0" layoutY="205.0" onAction="#ponerRadio" prefHeight="25.0" prefWidth="281.0" promptText="0.0" />
+      <Label fx:id="lblCoordenadasX" layoutX="133.0" layoutY="269.0" text="COORDENADAS X">
+         <font>
+            <Font name="Yu Gothic Regular" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCoordenadasX" layoutX="251.0" layoutY="265.0" onAction="#ponerCoordenadasX" prefHeight="25.0" prefWidth="281.0" promptText="0.0" />
+      <Label fx:id="lblCoordenadasY" layoutX="135.0" layoutY="323.0" text="COORDENADAS Y">
+         <font>
+            <Font name="Yu Gothic Regular" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCoordenadasY" layoutX="253.0" layoutY="319.0" onAction="#ponerCoordenadasY" prefHeight="25.0" prefWidth="281.0" promptText="0.0" />
+   </children>
+</Pane>

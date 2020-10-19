@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ControllerCirculo
+comment1.params=
+comment1.target=void\ inicializar()
+comment2.params=event
+comment2.target=void\ actualizar(javafx.event.ActionEvent)
+comment3.params=event
+comment3.target=void\ determinarUbicacion(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ ponerCentroX(javafx.event.ActionEvent)
+comment5.params=event
+comment5.target=void\ ponerCentroY(javafx.event.ActionEvent)
+comment6.params=event
+comment6.target=void\ ponerCoordenadasX(javafx.event.ActionEvent)
+comment7.params=event
+comment7.target=void\ ponerCoordenadasY(javafx.event.ActionEvent)
+comment8.params=event
+comment8.target=void\ ponerRadio(javafx.event.ActionEvent)
+comment9.params=
+comment9.target=void\ initialize()
+numComments=10
