@@ -1,4 +1,9 @@
 # interfacesGraficasJavaFX
-JULIÁN CAMILO RIVEROS FONSECA       1113434
-ANDERSON ADRIÁN OROZCO ROLÓN        1152070
-GERSON ISRAEL DIAZ DE LA GARZA      1152068
+JULIÁN CAMILO RIVEROS FONSECA       
+1113434
+__________________________________________
+ANDERSON ADRIÁN OROZCO ROLÓN        
+1152070
+__________________________________________
+GERSON ISRAEL DIAZ DE LA GARZA      
+1152068
