@@ -1,4 +1,4 @@
-# interfacesGraficasJavaFX
+# interfacesGráficas_JavaFX
 JULIÁN CAMILO RIVEROS FONSECA       
 1113434
 __________________________________________
