@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ControllerTriangulo
+comment1.params=
+comment1.target=void\ inicializar()
+comment2.params=
+comment2.target=void\ actualizarGUI()
+comment3.params=event
+comment3.target=void\ actualizar(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ determinarTipo(javafx.event.ActionEvent)
+comment5.params=event
+comment5.target=void\ ponerL1(javafx.event.ActionEvent)
+comment6.params=event
+comment6.target=void\ ponerL2(javafx.event.ActionEvent)
+comment7.params=event
+comment7.target=void\ ponerL3(javafx.event.ActionEvent)
+comment8.params=
+comment8.target=void\ initialize()
+numComments=9
