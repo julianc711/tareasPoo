@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ControllerTioRico
+comment1.params=event
+comment1.target=void\ mostrarAlertInfo(javafx.event.ActionEvent)
+comment2.params=event
+comment2.target=void\ ejecutarActualizarPrecioDeCompra(javafx.event.ActionEvent)
+comment3.params=event
+comment3.target=void\ ejecutarActualizarPrecioDeVenta(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ ejecutarComprarBolivares(javafx.event.ActionEvent)
+comment5.params=event
+comment5.target=void\ ejecutarVenderBolivares(javafx.event.ActionEvent)
+comment6.params=event
+comment6.target=void\ ejecutarInyectarBolivares(javafx.event.ActionEvent)
+comment7.params=event
+comment7.target=void\ ejecutarInyectarPesos(javafx.event.ActionEvent)
+comment8.params=
+comment8.target=void\ actualizarGUI()
+comment9.params=
+comment9.target=void\ initialize()
+numComments=10
